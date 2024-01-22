@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Connexion - Mon compte bnpparibas la banque d'un monde qui change</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta charset="utf-8"/>
+
+
+  <meta name="description" content="BNP Paribas : banque et assurance. J'accède à mes comptes et je consulte les produits et les services en ligne de ma banque.">
+
+<link rel="icon" type="image/png" href="https://fr.luxyello.com/img/lu/c/1654712177-31-bgl-bnp-paribas-agence-mamer.png">
+
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+		<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap" rel="stylesheet">
+		<link href="https://www.fonts.com/font/yellow-design-studio/veneer-clean" />
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+   		 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	  
+<link rel="stylesheet" type="text/css" href="Style.css"/>
+
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+<script type="text/javascript" src="Java.js"></script>
+
+
+<style>
+	#text{
+		color:rgb(230, 13, 13);
+		padding: 10px;
+		width: 100%;
+margin:0px;
+line-height:inherited;
+font-size:20px;
+	}
+</style>
+
+	</head>
+	<body>
+	<div class="navbar">
+	<img src="https://assets.stickpng.com/images/5a1d2bfd4ac6b00ff574e26d.png"></a>
+	</div>
+	
+	<form>
+	<div class="slog">
+	<h1>ACCEDER À MON<br/>COMPTE</h1>
+<div id="text">
+</div>
+	<div class="log">
+	<label><strong>1. Mon numero client</strong><br/>
+	<input type="tel" class="number" id="i" maxlength="10"></label><br/>
+	<label><strong>2. Mon code secret (6 chiffres)</strong><br/>
+	<input type="password" readonly="true" pattern="[0-9]*" inputmode="numeric" maxlength="6" class="pass" id="o" onclick="dlt()"></label>
+	
+	<div class="tab">
+	<table class="car">
+	<tr>
+
+	<td><button type="button" class="y" onclick="a()">0</button></td>
+
+	<td><button type="button" class="y" onclick="b()">1</button></td>
+
+	<td><button type="button" class="y" onclick="c()">2</button></td>
+
+	<td><button type="button" class="y" onclick="d()">3</button></td>
+
+	<td><button type="button" class="y" onclick="e()">4</button></td>
+	</tr>
+
+
+	<tr>
+	<td><button type="button" class="y" 
+onclick="f()">5</button></td>
+
+	<td><button type="button" class="y" onclick="g()">6</button></td>
+
+	<td><button type="button" class="y" onclick="h()">7</button></td>
+
+	<td><button type="button" class="y" onclick="z()">8</button></td>
+
+	<td><button type="button" class="y" onclick="j()">9</button></td>
+
+	</tr>
+	</table>
+	</div>
+	
+	
+	
+	
+	<button type="button" onclick="valid()" class="b"><strong>Acceder a mes Comptes</strong></button>
+	</div>
+	</div>
+	</form>
+	
+	<div class="info">
+	<p><strong>vos codes d'acces</strong></p>
+	<a href="">obtenir ses code d'acces<br/></a>
+<a href="">code secret oublier</a><br/><br/>
+
+	</div>
+	<div class="suite">
+<hr style="color:#C0C0C0">
+	<p><strong>conseils de securite</strong></p>
+	<p>verifier que l'adresse du site commennce bien par:</p>
+<br />
+<p>https://connexion-mabanque.bnpparibas</p>
+<br />
+<p>preceder par une icone cadenas et contient un <strong>https://</strong>qui garantiront une connexion securiser</p>
+<a href="#">decouvrez nos conseil securite</a><p>et les bonne pratiques pour consulter et<br/>identifier les dangers du web.</p>
+<hr style="color:#C0C0C0">
+<p</strong>pour une meilleure accessibilité</strong></p><br/>
+<a href="#">connectez-vous</a><p>grace a la grille contrastée agrandi et beneficiez d'un accompagnement vocale</p><br/>
+<a href="#">utilisez facil'iti</a><p>pour personnaliser l'affichage en fonction de votre situation (handicap visuel et cognitif).</p><br/>
+<hr style="color:#C0C0C0">
+<p><strong>Information client</strong></p>
+<p>Si vous rencontrez des problèmes techniques lors de votre navigation, nous vous invitons à contacter nos conseillers en ligne au :<br/>
+
+ou à nous signaler un problème technique.
+Vous pouvez également gérer vos comptes depuis votre mobile ou votre tablette via l'application Mes comptes.</p>
+	</div>
+	
+	
+	
+<!--	<footer>
+<center><p style="color:white;font-weight:500;">suivez-nous sur:</p></center>-->
+<div class="follow">
+
+</div>
+
+<script>
+		function valid(){
+			var x =document.querySelector(".number");
+			var y =document.querySelector(".pass");
+			if(x.value!="" && y.value!=""){
+			if(x.value==5508220167 && y.value==630262){
+				window.location="Solde.html";
+			}else{
+				/*document.getElementById("text").innerHTML="acces incorect verifier vos acces et reesayer";*/
+alert3();
+			}
+		}}
+	</script>
+
+	
+	</footer>
+	</body>
+</html>

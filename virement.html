@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Mon compte bnp paribas la banque d'un monde qui change</title>
+
+<meta charset="utf-8"/>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" type="text/css" href="Style3.css"/>
+
+<script type="text/javascript" src="Java3.js"></script>
+
+<link rel="shortcut icon" type="image/png" href="https://upload.wikimedia.org/wikipedia/commons/9/9d/Logo_signature_BNP_Paribas_Groupe.jpg"/>
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.10.1/dist/sweetalert2.all.min.js"></script>
+
+
+<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/sweetalert2@10.10.1/dist/sweetalert2.min.css'>
+
+	  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+	  <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+		
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+
+<script src='https://kit.fontawesome.com/618007f65e.js' crossorigin='anonymous'></script>
+
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+		<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<script src='https://kit.fontawesome.com/618007f65e.js' crossorigin='anonymous'></script>
+
+		<meta charset="utf-8"/>
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="Style1.css"/>
+
+<script type="text/javascript" src="Java1.js"></script>
+
+	</head>
+	<body>
+
+<script>
+        function deco(){
+                    window.location="index.html";
+                };
+    </script>
+
+	<div class="bar-logo">
+	<img src="https://assets.stickpng.com/images/5a1d2bfd4ac6b00ff574e26d.png" class="logo">
+	</div>
+	<div class="space">
+	<p style="padding:17px;">Effectué un virement</p>
+	</div>
+	<div align="right">
+	<a class="link" onclick="deco()"><i class='fas fa-power-off' style='font-size:15px;color:red'></i> &nbsp Deconnexion</a>
+	</div>
+	
+	
+	<div class="solde" style="text-align:center">
+<h3><a href="Solde.html" style="text-decoration:none">ESPACE CLIENT</a>/VIREMENT</h3>
+	<form>
+<input type="text" placeholder="Nom du bénéficiaire"/><br>
+<input type="text" placeholder="Prénom du bénéficiaire"/><br>
+<input type="tel" placeholder="Montant"/><br>
+<input type="text" placeholder="IBAN"/><br>
+<input type="text" placeholder="CODE SWIFT"/><br>
+<input type="tel" placeholder="CODE BANQUE"/><br>
+<input type="text" placeholder="LIBELLÉ"/><br>
+<button type="button" onclick="
+  let timerInterval
+Swal.fire({
+  title: 'Virement en cours',
+  html: 'chargement',
+  timer: 2000,
+  timerProgressBar: false,
+  didOpen: () => {
+    Swal.showLoading()
+   
+  },
+  willClose: () => {
+    clearInterval(timerInterval)
+  }
+}).then((result) => {
+  /* Read more about handling dismissals below */
+  if (result.dismiss === Swal.DismissReason.timer) {
+    alert1();
+  }
+})
+
+">VALIDER</button>
+</form>
+	
+
+	</div>
+
+	
+<h6 style="color:gray;margin-left:40px;font-size:15px;">Votre Gestionnaire</h6>
+	
+	<div class="info">
+	<!--<img src="https://i.ibb.co/X3YHvk5/5-EE63243-CE3-B-4-A7-A-81-F4-C8-A3-C00-C5-A54.jpg"/>
+	<h2> Mr Andy Privat </h2>
+	<p>la banque d'un monde qui change</p>
+	<p>payouts : 45€</p>-->
+	</div>
+	
+	</body>
+</html>
